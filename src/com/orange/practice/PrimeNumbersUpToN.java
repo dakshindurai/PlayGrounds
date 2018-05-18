@@ -5,12 +5,10 @@ public class PrimeNumbersUpToN {
 	static Scanner scan = new Scanner(System.in);
 	static long uptoNumber;
 	static boolean foundPrime = true;
-	int [] primeArray;	
 	public static void main(String[] args) {
 		System.out.println("Please enter the upto number to find Prime : ");
 		validateNull(uptoNumber = scan.nextLong());
 		getPrimeNumbers(uptoNumber);
-		
 	}
 	public static void validateNull(long uptoNumber) {
 		while(uptoNumber <= 0 ) {
@@ -28,6 +26,7 @@ public class PrimeNumbersUpToN {
 			}
 			if (foundPrime) {
 				System.out.print (i +" ");
+
 			}
 			if (i >= 3) {
 				foundPrime = !foundPrime;
