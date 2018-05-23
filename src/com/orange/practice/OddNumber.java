@@ -10,7 +10,7 @@ public class OddNumber {
 		displayResult (result = validateOdd(inputNumber = scan.nextInt()));
 	}
 	public static String validateOdd(int inputNumber) {
-		if (inputNumber % 2 !=0 ) {
+		if (inputNumber % 2 != 0 ) {
 			result = "ODD";
 		}
 		return result;

@@ -10,8 +10,8 @@ public class DefaultConstructorPracticeDemo {
 		D1.setMyDeviceVersion("6s");
 		
 		System.out.println("my Device "+ D1.getMyDevice());
-		System.out.println("my Device  Model "+ D1.getMyDeviceModel());
-		System.out.println("my Device  Version "+ D1.getMyDeviceVersion());
+		System.out.println("my Device Model "+ D1.getMyDeviceModel());
+		System.out.println("my Device Version "+ D1.getMyDeviceVersion());
 		
 		DefaultConstructorPracticeClass D2 = new DefaultConstructorPracticeClass();
 		D2.setMyDevice("Phone");
@@ -19,8 +19,8 @@ public class DefaultConstructorPracticeDemo {
 		D2.setMyDeviceVersion("SamSung Galaxy");
 		
 		System.out.println("my Device "+ D2.getMyDevice());
-		System.out.println("my Device  Model "+ D2.getMyDeviceModel());
-		System.out.println("my Device  Version "+ D2.getMyDeviceVersion());
+		System.out.println("my Device Model "+ D2.getMyDeviceModel());
+		System.out.println("my Device Version "+ D2.getMyDeviceVersion());
 	}
 
 }

@@ -19,6 +19,6 @@ public class EvenNumber {
 	public static void displayResult(String result) {
 		System.out.println("The Give Number is : "+ result + " number");
 	}
-	}
+}
 
 

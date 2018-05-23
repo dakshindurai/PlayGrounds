@@ -5,4 +5,4 @@
  * @author durai
  *
  */
-package com.orange.staticpackage;
+package com.orange.automobile;
