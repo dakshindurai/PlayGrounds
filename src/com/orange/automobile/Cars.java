@@ -6,7 +6,7 @@ public class Cars {
 	//Constructor 
 	public Cars(int startSpeed){
 		speed = startSpeed;
-		System.out.println("Speed of Car from Cars "+ speed);
+		System.out.println("default constructor from cars class "+ speed);
 	}
 	
 	public void increaseSpeed() {
