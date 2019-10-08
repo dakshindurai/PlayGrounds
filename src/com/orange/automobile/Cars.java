@@ -2,7 +2,9 @@ package com.orange.automobile;
 
 public class Cars {
 	int speed;
-	
+	public Cars(){
+		this(0);
+	}
 	//Constructor 
 	public Cars(int startSpeed){
 		speed = startSpeed;

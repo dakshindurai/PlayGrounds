@@ -10,7 +10,7 @@ public class AddingNumbersUptoN {
 	static int[] inputArray;
 	static int addResult;
 	public static void main(String[] args) {
-		System.out.println("Enter a positive number to be added : ");
+		 System.out.println("Enter a positive number to be added : ");
 		 inputArray = new int[inputNumber = Scan.nextInt() + 1];
 		 inputArray = getInput(inputNumber);
 		 System.out.println("Addition of all numbers : "+(addResult = addingElements(inputArray)));

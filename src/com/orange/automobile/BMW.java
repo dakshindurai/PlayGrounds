@@ -2,6 +2,7 @@ package com.orange.automobile;
 
 public class BMW extends Cars{
 	
+	
 	public BMW(int startSpeed) {
 		super(startSpeed);
 		System.out.println("Speed of BMW Cars "+startSpeed);

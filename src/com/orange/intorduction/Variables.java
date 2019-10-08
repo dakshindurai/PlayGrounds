@@ -5,8 +5,6 @@
  */
 package com.orange.intorduction;
 
-
-
 public class Variables {
 
 	public static void main(String[] args) {
@@ -21,7 +19,6 @@ public class Variables {
 		
 		byte MYBYTE_VARIABLE = 100;
 		System.out.println("Value of mybyteVariable : " + MYBYTE_VARIABLE);
-	
 		
 		/*
 		 * short Data Type

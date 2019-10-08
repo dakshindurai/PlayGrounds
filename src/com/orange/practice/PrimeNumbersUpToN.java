@@ -7,6 +7,8 @@ public class PrimeNumbersUpToN {
 	static boolean foundPrime = true;
 	public static void main(String[] args) {
 		System.out.println("Please enter the upto number to find Prime : ");
+//		System.out.println(isPrime (Long.parseLong(scan.next())));
+		
 		validateNull(uptoNumber = scan.nextLong());
 		getPrimeNumbers(uptoNumber);
 	}
@@ -16,6 +18,16 @@ public class PrimeNumbersUpToN {
 			validateNull(uptoNumber= scan.nextLong());
 		}
 	}
+	
+	public static boolean isPrime (long number) {
+		for (int i = 2; i < number; i ++) {
+			if (number % i== 0) {
+				return false;
+			}
+		}
+		return true;
+	}
+	
 	public static void getPrimeNumbers(long uptoNumber) {
 		for (int i = 2 ; i < uptoNumber; i++) {
 			for (int j = 2; j < i; j++) {
@@ -26,7 +38,6 @@ public class PrimeNumbersUpToN {
 			}
 			if (foundPrime) {
 				System.out.print (i +" ");
-
 			}
 			if (i >= 3) {
 				foundPrime = !foundPrime;

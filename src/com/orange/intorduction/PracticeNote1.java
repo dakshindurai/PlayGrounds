@@ -15,7 +15,6 @@ public class PracticeNote1 {
 		for (int i = myArray1.length; i>0; i--) {
 			System.out.print(myArray1[i-1]);
 		}
-		
 		for (int i = myString.length(); i>0; i--) {
 			System.out.print(myString.charAt(i-1));
 		}
