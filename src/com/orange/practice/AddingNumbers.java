@@ -7,7 +7,8 @@ public class AddingNumbers {
 	public static void main(String[] args) {
 		input1 = Integer.parseInt(getInput());
 		input2 = Integer.parseInt(getInput());
-		System.out.println("The addition of two numbers is :  " + (resultAdd = addNumbers(input1, input2)));
+		System.out.println("The addition of two numbers is :  "
+				+ (resultAdd = addNumbers(input1, input2)));
 	}
 	public static String getInput() {
 		System.out.println("Please Enter the Number : ");
