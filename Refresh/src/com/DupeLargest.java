@@ -1,3 +1,4 @@
+package com;
 
 public class DupeLargest {
 	static int n1[] = {23, 6,-1,0,22,4,9,-1,24};

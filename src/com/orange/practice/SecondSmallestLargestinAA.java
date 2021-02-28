@@ -8,7 +8,7 @@ public class SecondSmallestLargestinAA {
 	static String inputString;
 	public static void main(String[] args) {
 		System.out.println("The Second Largest in a 2 Dimensional Array is :  " + (secondLargest = secondGreatest(myInt)));
-		System.out.println("The First Largets in a 2 Dimensional Array is : " + (secondSmallest = secondSmallest(myInt)));
+		System.out.println("The Secons Smallest in a 2 Dimensional Array is : " + (secondSmallest = secondSmallest(myInt)));
 	}
 	public static int secondGreatest(int[][] myInt) {
 		for (int i = 0; i < myInt.length; i++) {
@@ -39,5 +39,4 @@ public class SecondSmallestLargestinAA {
 		
 		return secondSmallest;
 	}
-
 }
