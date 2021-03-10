@@ -1,13 +1,16 @@
-**/bin/
-/Users/durai/Documents/workspace/playgnd/JavaPlayGrounds/.classpath
-/Users/durai/Documents/workspace/playgnd/JavaPlayGrounds/.project
+# Intellij
+.idea/
+*.iml
+*.iws
+.classpath/
+.project/
+.settings/
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
 bin/
-/.idea/
-/.metadata/
-/.settings/
-/Users/durai/Documents/workspace/playgnd/JavaPlayGrounds/Refresh/Refresh.iml
-/Users/durai/Documents/workspace/playgnd/JavaPlayGrounds/September/September.iml
-/Users/durai/Documents/workspace/playgnd/JavaPlayGrounds/JavaPlayGrounds.iml
-/Users/durai/Documents/workspace/playgnd/JavaPlayGrounds/PlayGrounds.iml
-/Users/durai/Documents/workspace/playgnd/JavaPlayGrounds/README.md
-/out/
+out/
