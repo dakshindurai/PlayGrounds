@@ -1,7 +1,5 @@
 package play;
 
-import java.sql.SQLOutput;
-
 public class CalledClass {
     public int myInteger;    // Instance Variable
     public String myString;  // Instance Variable
