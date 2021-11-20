@@ -2,7 +2,7 @@ package com;
 
 public class WideningTypeCasting {
     public static void main(String[] args){
-        byte myByte = 100;
+        byte myByte = 90;
         short myShort = myByte;
         int myInteger = myByte;
         float myFloat = myByte;

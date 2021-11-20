@@ -4,7 +4,7 @@ package com.orange.arrayList;
 public class Palindrome {
 	static String s2 = "";
 	public static void main(String[] args) {
-		String s1 = "ABCDCBA";
+		String s1 = "ABAABA";
 		//String s4 = s1;	
 		//checkPalindrome(s1);
 		int s1StringLen = s1.length();
