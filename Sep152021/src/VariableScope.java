@@ -1,5 +1,6 @@
 public class VariableScope {
     private int instanceVariable ;
+    int subClassVariable;
     static int staticVariable;
     public static void main(String [] args){
 
@@ -32,5 +33,20 @@ public class VariableScope {
         int localVariable = 10;
         System.out.println("LocalVariable " + localVariable);
         return (localVariable);
+    }
+}
+class testClass {
+
+    public void method1(){
+        {
+            {
+                int x = 5;
+                {
+                    int x1 = 10;
+                    System.out.println(x);
+                }
+            }
+        }
+
     }
 }
